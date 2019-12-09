@@ -181,8 +181,8 @@ class SignInActivity : BaseActivity(), View.OnClickListener {
     override fun onClick(v: View) {
         val i = v.id
         if (i == R.id.buttonSignIn) {
-//            signIn()
-            createSignInIntent()
+            signIn()
+//            createSignInIntent()
         } else if (i == R.id.buttonSignUp) {
             signUp()
         }
