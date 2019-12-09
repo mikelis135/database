@@ -1,11 +1,14 @@
 package com.google.firebase.quickstart.database.kotlin
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentPagerAdapter
+import com.firebase.ui.auth.AuthUI
+import com.firebase.ui.auth.IdpResponse
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.quickstart.database.R
 import com.google.firebase.quickstart.database.kotlin.fragment.MyPostsFragment

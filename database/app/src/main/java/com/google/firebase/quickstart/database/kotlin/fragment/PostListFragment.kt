@@ -137,11 +137,10 @@ abstract class PostListFragment : Fragment() {
                 dataSnapshot: DataSnapshot?
             ) {
                 // Transaction completed
-                Log.d(TAG, "postTransaction:onComplete:" + databaseError!!)
+                Log.d(TAG, "postTransaction:onComplete:$databaseError")
             }
         })
     }
-    // [END post_stars_transaction]
 
     override fun onStart() {
         super.onStart()

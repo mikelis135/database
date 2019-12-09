@@ -16,4 +16,7 @@
     <string name="heading_recent">Recent</string>
     <string name="heading_my_posts">My Posts</string>
     <string name="heading_my_top_posts">My Top Posts</string>
+    <!-- Twitter consumer key and secret -->
+    <string name="twitter_consumer_key" translatable="false">8OgwQyNjV1qipWS8IemYbWLEL</string>
+    <string name="twitter_consumer_secret" translatable="false">FGUAIxHKKc3czs6oLEF9F3MzlfNQvowbXPHlfHrpsuz1cRJb8A</string>
 </resources>

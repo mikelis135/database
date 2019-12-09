@@ -44,6 +44,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-core:17.2.1'
     implementation 'com.google.firebase:firebase-auth:19.2.0'
     implementation 'com.google.firebase:firebase-database:19.2.0'
+    implementation 'com.firebaseui:firebase-ui-auth:4.3.1'
+    implementation 'com.twitter.sdk.android:twitter:3.1.1'
 
     // Needed to fix a dependency conflict with FirebaseUI'
     implementation 'androidx.arch.core:core-runtime:2.1.0'
